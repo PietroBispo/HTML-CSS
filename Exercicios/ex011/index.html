@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>Abra 3 imagens de acordo com o tamanho do navegador</p>
+<picture>
+    <source media="(max-width: 550px )" srcset="imagens/pietro200.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/pietro500.png" type="image/png">
+    <img src="imagens/pietro1000.png" alt="pipi">
+</picture>
+     <h1>Reproduzindo Áudio</h1>
+     <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio  preload="metadata" autoplay controls loop>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+        <source src="happy-mistake.ogg" type="audio/ogg">
+        <source src="happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="happy-mistake.mp3">Clique aqui para baixar o arquivo HP3</a></p>
+
+    </audio>
+
+    
+</body>
+</html>
