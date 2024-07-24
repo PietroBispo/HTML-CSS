@@ -19,7 +19,7 @@ html, body{
     min-height: 100vh;
     background-color: white;
     font-family: var(--font01);
-    min-width: 200px;
+    max-width: 300px;
     
 
     
