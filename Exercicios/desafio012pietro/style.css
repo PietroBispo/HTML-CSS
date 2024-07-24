@@ -19,6 +19,7 @@ html, body{
     min-height: 100vh;
     background-color: white;
     font-family: var(--font01);
+    min-width: 200px;
     
 
     
@@ -66,14 +67,16 @@ section{
    
     
 }
-section.normal{
+
     
     
-}
+
 
 section.imagem{
     background-color: rgba(0, 0, 0, 0.603);
     color: white;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.705);
+
     
     
     
@@ -90,6 +93,7 @@ section#img01{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
+   
 }
 
 section#img02{
@@ -97,6 +101,7 @@ section#img02{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
+    
     
 }
 
