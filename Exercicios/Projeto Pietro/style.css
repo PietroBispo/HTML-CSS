@@ -58,12 +58,28 @@ article{
     
 }
 
+article > h3{
+    background:linear-gradient(to right, #090f20cc, white);
+    color: white;
+}
+article > h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+   
+
 img{
-    width: 70%;
-    
+    width: 60%;
+    background-image: url(_106589253_amino.jpg.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: block;
     margin: auto;
 }
+    
 
 
 
