@@ -17,11 +17,26 @@ body{
 table{
     border-collapse: collapse;
     text-align: center;
+    width: 100%;
+    
 }
 th, td{
     border: 1px solid black;
     padding: 10px;
 }
+thead{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(170, 169, 169);
+    
+}
+ 
+tr:nth-child(2n){
+    background-color: rgba(12, 58, 184, 0.753);
+}
+
+
+
 
 header{
     background-color: var(--cor02);
@@ -68,6 +83,10 @@ article > h1{
     font-size: 30px;
     padding-bottom: 10px;
 }
+article > h2{
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
    
 
 section.imagem{
@@ -101,7 +120,13 @@ section#img03{
     background-attachment: fixed;
 }
 
-
+aside > p{
+    padding-top: 10px;
+    background-color:rgb(189, 189, 189) ;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
 
 footer{
     background-color: black;
