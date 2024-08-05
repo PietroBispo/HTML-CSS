@@ -61,6 +61,7 @@ article{
 article > h3{
     background:linear-gradient(to right, rgba(41, 52, 148, 0.795), white);
     color: white;
+    margin-top: 40px;
 }
 article > h1{
     font-family: 'Times New Roman', Times, serif;
@@ -69,14 +70,36 @@ article > h1{
 }
    
 
-img{
+section.imagem{
     width: 100%;
-    padding-top: 35px;
-    padding-bottom: 65px;
+    height: 100%;
+    padding-top: 300px;
+    padding-bottom: 300px;
     display: block;
     margin: auto;
 }
+
+section#img01{
+    background-image: url(_106589253_amino.jpg.webp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     
+    
+}
+section#img02{
+    background-image: url(academia_amigos.webp);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section#img03{
+    background-image: url(mudanca-habitos.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
