@@ -59,23 +59,20 @@ article{
 }
 
 article > h3{
-    background:linear-gradient(to right, #090f20cc, white);
+    background:linear-gradient(to right, rgba(41, 52, 148, 0.822), white);
     color: white;
 }
 article > h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
 }
    
 
 img{
     width: 60%;
-    background-image: url(_106589253_amino.jpg.webp);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: block;
     margin: auto;
 }
