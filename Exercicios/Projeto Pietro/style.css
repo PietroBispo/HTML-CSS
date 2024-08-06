@@ -124,7 +124,7 @@ aside > p{
     padding-top: 10px;
     background-color:rgb(189, 189, 189) ;
     padding: 10px;
-    border: 1px solid black;
+   
     font-weight: bolder;
 }
 
@@ -134,4 +134,19 @@ footer{
     text-align: center;
     padding: 10px;
 }
-    
+
+article > h5{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    background-color:  rgba(41, 52, 148, 0.795);
+    border: 1px solid black;
+    border-radius: 20px 20px 20px;
+}
+ 
+h5, p{
+    font-weight: bolder;
+    font-size: 20px;
+}
