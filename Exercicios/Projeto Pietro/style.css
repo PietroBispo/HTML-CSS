@@ -89,36 +89,16 @@ article > h2{
 }
    
 
-section.imagem{
+img{
     width: 100%;
-    height: 100%;
-    padding-top: 300px;
-    padding-bottom: 300px;
+
     display: block;
     margin: auto;
-}
-
-section#img01{
-    background-image: url(_106589253_amino.jpg.webp);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
     
 }
-section#img02{
-    background-image: url(academia_amigos.webp);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    
 
-}
-section#img03{
-    background-image: url(mudanca-habitos.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 aside > p{
     padding-top: 10px;
