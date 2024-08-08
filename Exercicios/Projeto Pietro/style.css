@@ -13,6 +13,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
 }
 table{
     border-collapse: collapse;
@@ -20,10 +22,7 @@ table{
 
     width: 100%;
 }
-div#container{
-    overflow-x: auto;
 
-}
     
 
 th, td, caption{
@@ -166,7 +165,7 @@ article > h5{
  
 
 p.para{
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 1.1em;
     border-radius: 0px 0px 20px 20px ;
     border: 1px solid black;
@@ -189,5 +188,8 @@ p.quebra{
     text-align: center;
     padding-top: 20px;
     font-size: 1.6em;
+    font-weight: bolder;
+}
+h1,p{
     font-weight: bolder;
 }
