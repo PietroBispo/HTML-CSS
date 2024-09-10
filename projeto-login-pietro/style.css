@@ -57,3 +57,21 @@ div#form > p{
     padding: 8px;
     font-size: 14px
 }
+
+div.campo > input{
+    
+    width: 80%;
+    padding-bottom: 10px;
+    background-color: #49a09dd7;
+    font-size: 1em;
+    border: none;
+    padding: 5px;
+    font-weight: lighter;
+    border-radius: 20px ;
+    border: 2px solid #5f2c82;
+}
+
+div#campo > i{
+    background-color: #5f2c82;
+    
+}
