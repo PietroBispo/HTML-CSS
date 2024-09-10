@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login Pietro</title>
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem"> 
+
+            </div>
+
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente, Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="cadastro.php" method="get">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" maxlength="20" required>
+                        <label for="ilogin"></label>
+
+                    </div>
+
+                    <div>
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required minlength="10" max="20">
+                        <label for="isenha"></label>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Entrar">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Esqueci a senha"> <i class="material-icons">mail</i>
+                    </div>
+                </form>
+            </div>
+
+            
+                
+
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

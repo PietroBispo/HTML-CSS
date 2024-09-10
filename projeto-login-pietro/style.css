@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*
+  Verde: #49a09d
+  Lilás: #5f2c82
+
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #5f2c82 url(imagens/metal.jpg) no-repeat;
+    height: 220px;
+    background-size: 120%;
+}
+
+div#form > h1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div#form > p{
+    padding: 8px;
+    font-size: 14px
+}
