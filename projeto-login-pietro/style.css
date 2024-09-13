@@ -32,7 +32,7 @@ section#login{
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 515px;
+    height: 545px;
     border-radius: 20px;
 
     transition: width .3s, height .3s;
@@ -65,27 +65,64 @@ div.campo > input  {
     background-color: #57c9c5;
     font-size: 1.3em;
     padding: 5px;
-    border-radius: 10px ;
+    border-radius: 5px ;
 }
 
 form > div.campo{
     background-color: #5f2c82;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     width: 96%;
     margin-top: 10px;
     margin: 5px;
 }
 
-form > div.campo:hover{
+div.campo >input:focus-within{
+    background-color: white;
+    
     
 }
 
+div.botao > input[type=submit]{
+    width: 96%;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #429c99;
+    color: white;
+    font-size: 1em;
+    
+}
+div.botao > input[type=submit]:hover{
+    background-color: #337775;
+}
 
- div.campo > i{
-    position: relative;
-   
- }
+  form > a.botao2{
+    position: absolute;
+    width: 94%;
+    height: 35px;
+    margin: 5px;
+
+    
+    
+    
+    
+    border-radius: 5px;
+    border: 1px solid #63e7e3;
+    color: #429c99;
+    font-size: 1em;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+form > a.botao2:hover{
+    background-color: #63e7e3;
+}
+
+
+ 
 
 
 
